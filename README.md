@@ -21,7 +21,7 @@ https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-wi
 ## Running the code
 Run `py cautiousEye.py -p {path to shape_predictor.bat} -a {path to .WAV alarm} -w {index of webcam}` to run the script.
 
-If the alarm sounds even when the eyes are opened, try increasing the value of the constant **EYE_AR_THRESH** declared on **line 34**<br>
-If the alarm does not sound even when the eyes are closed, increase the value of the constant **EYE_AR_THRESH** declared on **line 34**<br>
+If the alarm sounds even when the eyes are opened, increase the value of the constant **EYE_AR_THRESH** declared on **line 34**<br>
+If the alarm does not sound even when the eyes are closed, decrease the value of the constant **EYE_AR_THRESH** declared on **line 34**<br>
 ## Examples
 `py cautiousEye.py -p Desktop\shape_predictor.bat -a Desktop\alarm.wav -w 0`
