@@ -13,8 +13,11 @@ You will need to have Python 3 installed along with pip. Run:
 
 `pip install playsound`<br>
 
+`pip install cmake`
+
 Another library that has to be installed is **dlib**. The following link contains the tutorial to install dlib:<br>
 https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f<br>
+
 ## Prerequisites
 * Download the alarm.wav file given above.<br>
 * Download the `shape_predictor.bat` file from the following Dropbox link: https://www.dropbox.com/s/jbsm8n5wr7e0z3z/shape_predictor.dat?dl=0
