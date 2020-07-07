@@ -16,7 +16,8 @@ You will need to have Python 3 installed along with pip. Run:
 Another library that has to be installed is **dlib**. The following link contains the tutorial to install dlib:<br>
 https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f<br>
 ## Prerequisites
-Download the `shape_predictor.bat` file and the `alarm.wav` audio file given above.
+* Download the alarm.wav file given above.<br>
+* Download the `shape_predictor.bat` file from the following Dropbox link: https://www.dropbox.com/s/jbsm8n5wr7e0z3z/shape_predictor.dat?dl=0
 ## Running the code
 Run `py cautiousEye.py -p {path to shape_predictor.bat} -a {path to .WAV alarm} -w {index of webcam}` to run the script.
 
