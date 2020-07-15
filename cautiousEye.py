@@ -36,10 +36,10 @@ ALARM_ON = False
 
 print("[INFO] loading facial landmark predictor...")
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(args['shape_predicotr'])
+predictor = dlib.shape_predictor(args['shape_predictor'])
 
-lStart, lEnd = face_utils.FACIAL_LANDMARKS_IDXS["left eye"]
-rStart, rEnd = face_utils.FACIAL_LANDMARKS_IDXS["right eye"]
+lStart, lEnd = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
+rStart, rEnd = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
 
 print("[INFO] starting video stream thread...")
 vs = VideoStream(src=args['webcam']).start()
@@ -75,7 +75,7 @@ while True:
                     ALARM_ON = True
 
                     if args["alarm"] != "":
-                        t = Thread(target=sound_alarm, args=(args['alarm',]))
+                        t = Thread(target=sound_alarm, args=(args['alarm'],))
                         t.deamon = True
                         t.start()
                 
