@@ -1,5 +1,5 @@
-# cautiousEye
-cautiousEye is a drowsiness detector, mainly designed to support vehicle drivers, especially truck drivers, who mostly have to travel long distances. It uses computer vision techniques to calculate the identify important regions and sounds an alarm if it detects that the eyes are closed for too long. To set up:
+# eyeSafe
+eyeSafe is a drowsiness detector, mainly designed to support vehicle drivers, especially truck drivers, who mostly have to travel long distances. It uses computer vision techniques to calculate the identify important regions and sounds an alarm if it detects that the eyes are closed for too long. To set up:
 ## Installation of Libraries
 You will need to have Python 3 installed along with pip. Run:
 
