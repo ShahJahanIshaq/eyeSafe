@@ -28,7 +28,7 @@ ap.add_argument('-a', '--alarm', type=str, default="", help="path to alarm .WAV 
 ap.add_argument('-w', '--webcam', type=int, default=0, help='index of webcam on system')
 args = vars(ap.parse_args())
 
-EYE_AR_THRESEH = 0.3
+EYE_AR_THRESEH = 0.30
 EYE_AR_CONSEC_FRAMES = 48
 
 COUNTER = 0
